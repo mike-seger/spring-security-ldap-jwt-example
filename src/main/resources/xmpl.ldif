@@ -1,21 +1,21 @@
-dn: dc=thmshmm,dc=de
+dn: dc=xmpl,dc=com
 objectclass: top
 objectclass: domain
 objectclass: extensibleObject
-dc: thmshmm
+dc: xmpl
 o: ThmsHmm
 
-dn: ou=people,dc=thmshmm,dc=de
+dn: ou=people,dc=xmpl,dc=com
 objectclass: top
 objectClass: organizationalUnit
 ou: people
 
-dn: ou=groups,dc=thmshmm,dc=de
+dn: ou=groups,dc=xmpl,dc=com
 objectClass: top
 objectClass: organizationalUnit
 ou: groups
 
-dn: uid=user1,ou=people,dc=thmshmm,dc=de
+dn: uid=user1,ou=people,dc=xmpl,dc=com
 objectclass: top
 objectclass: person
 objectclass: organizationalPerson
@@ -23,28 +23,28 @@ objectclass: inetOrgPerson
 cn: User One
 sn: One
 givenName: User
-mail: user.one@thmshmm.de
+mail: user.one@xmpl.de
 uid: user1
 userPassword: user1
 
-dn: uid=admin,ou=people,dc=thmshmm,dc=de
+dn: uid=admin,ou=people,dc=xmpl,dc=com
 objectClass: inetOrgPerson
 cn: Admin One
 sn: One
 givenName: Admin
-mail: admin@thmshmm.de
+mail: admin@xmpl.de
 uid: admin
 userPassword: admin
 
-dn: cn=admins,ou=groups,dc=thmshmm,dc=de
+dn: cn=admins,ou=groups,dc=xmpl,dc=com
 objectclass: top
 objectclass: groupOfUniqueNames
 cn: admins
-uniqueMember: uid=admin,ou=people,dc=thmshmm,dc=de
+uniqueMember: uid=admin,ou=people,dc=xmpl,dc=com
 
-dn: cn=users,ou=groups,dc=thmshmm,dc=de
+dn: cn=users,ou=groups,dc=xmpl,dc=com
 objectclass: top
 objectclass: groupOfUniqueNames
 cn: users
-uniqueMember: uid=user1,ou=people,dc=thmshmm,dc=de
-uniqueMember: uid=admin,ou=people,dc=thmshmm,dc=de
+uniqueMember: uid=user1,ou=people,dc=xmpl,dc=com
+uniqueMember: uid=admin,ou=people,dc=xmpl,dc=com
