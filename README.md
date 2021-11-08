@@ -35,5 +35,9 @@ dn: uid=user1,ou=people,dc=xmpl,dc=com
 ...
 ```
 
-TODO:
+## TODO
 * JWT token renewal
+
+## Links
+* https://github.com/thmshmm/spring-security-ldap-jwt-example
+* https://devconnected.com/how-to-search-ldap-using-ldapsearch-examples/
