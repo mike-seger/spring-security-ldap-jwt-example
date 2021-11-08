@@ -39,5 +39,9 @@ dn: uid=user1,ou=people,dc=xmpl,dc=com
 * JWT token renewal
 
 ## Links
+* https://www.novatec-gmbh.de/en/blog/how-to-support-different-jwts-in-your-spring-boot-application/
+* https://github.com/spring-projects/spring-security/issues/6778
+* https://arthurxzhang.medium.com/oauth2-resource-server-multi-tenancy-made-easy-by-spring-security-abf1a747f26b
+* https://docs.spring.io/spring-security/site/docs/current/reference/html5/#servlet-hello-starting
 * https://github.com/thmshmm/spring-security-ldap-jwt-example
 * https://devconnected.com/how-to-search-ldap-using-ldapsearch-examples/
